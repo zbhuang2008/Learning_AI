@@ -1,0 +1,10 @@
+
+ 1057  conda env list
+ 1058  conda create --name llama2.c.test.00 python=3.10
+ 1059  conda activate llama2.c.test.00
+ 1061  conda install pytorch::pytorch torchvision torchaudio -c pytorch
+ 1063  conda install pytest requests
+ 1066  conda install conda-forge::sentencepiece
+ 1067  conda install numpy tqdm
+ 1069  conda install conda-forge::wandb
+
